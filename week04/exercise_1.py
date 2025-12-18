@@ -14,7 +14,7 @@ print(weights_and_revenue)
 
 is_less_than_500 = weights_and_revenue[:,1] < 500
 
-print( weithgs_and_revenue[is_less_than_500,1].argmax() )
+print(weights_and_revenue[is_less_than_500,1].argmax() )
 
 
 
