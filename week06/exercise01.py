@@ -14,7 +14,6 @@ temp_list = data_dict['hourly']['temperature_2m']
 matrix = []
 
 matrix_np = np.array([time_list, temp_list])
-
 matrix_np = matrix_np.T
 
 print(matrix_np)
